@@ -3,7 +3,7 @@
 #include <iostream>
 template <class T>
 struct NPNode {
-	//N0de contain next node point and previous node point
+	//N0de contain next node pointer and previous node pointer
 	//N(ext)P(revious)Node
 	T value;
 	NPNode * pre;
