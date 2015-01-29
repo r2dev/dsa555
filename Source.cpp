@@ -1,12 +1,14 @@
-#include "DList.h"
-#include "SList.h"
-#include "CList.h"
+#include "Stack.h"
+#include "Queue.h"
 int main()
 {
-	SList<int> a;
-	a.pushBack(1);
-	a.pushBack(2);
 
+	Stack<int> a;
+	a.push(10);
+	a.push(20);
+	a.push(30);
+	a.pop();
 	a.printEverything();
-	int d = 1;
+	system("pause");
+
 }
